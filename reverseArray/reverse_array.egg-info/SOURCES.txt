@@ -1,0 +1,8 @@
+README.rst
+setup.py
+reverse_array/__init__.py
+reverse_array/reverse_array.py
+reverse_array.egg-info/PKG-INFO
+reverse_array.egg-info/SOURCES.txt
+reverse_array.egg-info/dependency_links.txt
+reverse_array.egg-info/top_level.txt
