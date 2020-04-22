@@ -1,6 +1,7 @@
 
 # Method to get user input
 def get_input():
+
     input_list = []
     try:
         n = int(input("Enter number of elements"))
@@ -15,7 +16,7 @@ def get_input():
     return input_list
 
 # Method to reverse an array
-def reverse_array(list):
+def reverse_array_list(list):
     count = len(list)
     for i in range(count):
         first_item = list[i]
@@ -24,7 +25,7 @@ def reverse_array(list):
             list[i] = list[j]
             list[j] = first_item
     print(f"Reverse Array is {list}")
+    return list
 
 print("Provide an array to reverse")
-reverse_array(get_input())
-
+reverse_array_list(get_input())

@@ -1,4 +1,4 @@
-README.rst
+README.md
 setup.py
 reverse_array/__init__.py
 reverse_array/reverse_array.py
