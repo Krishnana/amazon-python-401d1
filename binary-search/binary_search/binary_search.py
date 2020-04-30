@@ -1,5 +1,11 @@
 
 def binary_search(input_array,search_element):
+    """
+    Description : This method will help to aearch input element in an array
+    Argument    : list --> input array with list of values
+                  val --> value to be searched in the array
+    return      : index of search item (OR) -1 if element is not available in the array
+    """
     lower_index = 0
     upper_index = len(input_array) - 1
     
